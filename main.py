@@ -11,8 +11,7 @@ import time
 app = Flask(__name__)
 CORS(app)
 
-CLASS_NAMES = ["True", "Satire", "False Conn.", "Impost. Content", "Man. Content", "Mis. Content"]
-distil = DistilFND(len(CLASS_NAMES))
+distil = DistilFND(6)
 
 image_name = ""
 
